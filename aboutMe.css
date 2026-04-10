@@ -38,6 +38,7 @@ p{
     max-width: 400px;
     height:auto;
    max-height:200px;
+    border:1px solid black;
 }
 .pics .portrait{
     width: 210px;
