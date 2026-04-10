@@ -20,8 +20,6 @@ h1{
 /*Nav bar*/
 nav {
     display: flex;
-    position: fixed;
-    top:0rem;
     justify-content: space-between;
     width:100vw;
     height:3rem;
