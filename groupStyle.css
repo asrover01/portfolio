@@ -10,6 +10,7 @@ body{
     padding-top:5rem;
     color: rgb(222,222,222);
     font-family:  Verdana, sans-serif;
+    padding-bottom:2rem;
 }
 h1{
     text-align: center;
@@ -25,8 +26,9 @@ nav {
     width:100vw;
     height:3rem;
     margin-top:0.7em;
+    z-index:1;
+    background-color: black;
 }
-
 
 
 nav a{
