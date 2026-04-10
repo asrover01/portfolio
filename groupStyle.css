@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+body{
+    background-color: black;
+    text-decoration: none;
+    padding-top:5rem;
+    color: rgb(222,222,222);
+    font-family:  Verdana, sans-serif;
+}
+h1{
+    text-align: center;
+    font-size: 2rem;
+    text-shadow: -2px 0 red;
+}
+/*Nav bar*/
+nav {
+    display: flex;
+    position: fixed;
+    top:0rem;
+    justify-content: space-between;
+    width:100vw;
+    height:3rem;
+    margin-top:0.7em;
+}
+
+
+
+nav a{
+    display: inline-block;
+    text-align: center;
+    align-content: center;
+   
+   width:min-content;
+    text-decoration: none;
+    font-size: 0.8rem;
+    margin: 0 0.5em;
+    color: darkcyan;
+    font-weight:bold ;
+    border:2px solid darkcyan;
+    padding:0.1em 0.5em;
+    border-radius: 50px;
+   
+
+}
+nav a:hover, button:hover {
+    background: darkcyan;
+    color: black;
+}
+
+
+@media only screen and (min-width:800px){
+nav {
+    
+    justify-content:space-around;
+    width:100%;
+}
+
+nav a{
+    
+   width: fit-content;
+    font-size: 1rem;
+    margin-left: 4rem;
+    padding:0.2em 0.5em;
+    
+}
+
+}

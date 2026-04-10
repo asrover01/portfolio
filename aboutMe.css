@@ -1,0 +1,49 @@
+h1{
+    text-align: center;
+    font-size: 2rem;
+    text-shadow: -2px 0 red;
+}
+.brief{
+    margin: 1rem 0.5rem;
+   display: flex;
+   flex-direction: column;
+}
+p{
+    margin-top: 1rem;
+    font-size:0.8rem;
+}
+
+.pics img{
+    display: none;;
+}
+
+@media only screen and (min-width:800px){
+
+p{
+    font-size:1.2rem;
+    margin: 1rem 4rem;
+}
+
+
+.pics{
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+
+.pics img{
+    display: block;
+    width:400px;
+    max-width: 400px;
+    height:auto;
+   max-height:200px;
+}
+.pics .portrait{
+    width: 210px;
+    max-width: 300px;
+    height:auto;
+    
+
+
+}

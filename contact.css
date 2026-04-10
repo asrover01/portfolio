@@ -1,0 +1,51 @@
+
+p{
+    margin:1rem
+}
+span{
+    display: inline-block;
+    margin:1rem 0 0 1rem
+}
+
+section button{
+    margin: 1rem 0.5rem;
+    font-size: 0.8rem;
+    padding:0.3em 0.5em;
+    background-color: darkcyan;
+    color:white;
+    
+    
+}
+
+
+
+section> a{
+    display: inline-block;
+    text-align: center;
+    align-content: center;
+    text-decoration: none;
+    font-size: 0.8rem;
+    margin: 0 0.5em;
+    background-color: darkcyan;
+    color:white;
+    padding:0.3em 0.5em;
+    
+   
+
+}
+section a:hover, button:hover {
+    background: darkcyan;
+    color: black;
+}
+@media only screen and (min-width:800px){
+    p{
+        font-size:1.2rem;
+    }
+    span{
+        font-size:1.2rem;
+    }
+    section button, section a{
+        font-size: 1.2rem;
+        padding:0.5em 1em;
+    }
+}
